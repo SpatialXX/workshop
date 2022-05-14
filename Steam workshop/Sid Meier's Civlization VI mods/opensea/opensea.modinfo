@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b4837033-8f54-4042-a15b-fba6083f5916" version="04">
+	<Properties>
+		<Name>Open Sea</Name>
+		<Teaser>Boat don't care about borders</Teaser>
+		<Description><![CDATA[Have you ever be in a situation where AI denounce you meaning you can't ask him "Open borders" to let your poor boat go outside ? Because with this mod, it wil never happen again.
+Now, boat don't care anymore about borders and can pass througth everybody borders. It should work with every vanilla and DLC boat and unique boat. 
+Also, AI seems to be unable to use this mod feature so it is really usefull only to you.
+
+How to use the mod ?
+When the mod is active, your boat can pass in other nation territory but still can lead to a Surprise War if you move them. To avoid this, move only on unseen or undiscovered tile. It is only when you move a unit in a seen tile that the "Surprise War" event will occur.
+
+Compability : This mod should be able to work with any mod that don't massively change the code of boat.
+This mod will not work with boat added by other mods.]]></Description>
+		<Authors>SpatialX</Authors>
+	</Properties>
+	<InGameActions>
+        <UpdateDatabase id="OpenSea">
+            <File>opensea.sql</File>
+        </UpdateDatabase>
+	</InGameActions>
+    <Files>
+		<File>opensea.sql</File>
+	</Files>
+</Mod>

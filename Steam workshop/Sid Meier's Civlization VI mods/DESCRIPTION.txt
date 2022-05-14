@@ -1,0 +1,13 @@
+A propos de Civ 6 :
+Civlization VI est un jeu de stratégie en tour par tour dans lequel le joueur contrôle une Civilization historique avec des traits unique
+Le joueur doit fonder des villes, faire des recherches, construire des quartier et Merveille, aménager ces terres et conquérir ces voinsins. Il ménera son peuple de l'antiquité a l'ére spatial et devra choisir entre une victoire culturelle, scientifique, religieuse ou militariste.
+La communauté de modding est relativement active malgrè un language très restreint, un code source disponible qu'en partie et pas de message d'erreur.
+
+Note : Les Statistique sont prise a la date du 14 mai 2022
+
+Open Sea :
+Fonction : Dans le jeu, explorer le monde est très important en début de partie et reste très satisfaisant de découvrir la carte entière. Ce processus passe notamment par l'exploration marine. 
+Mais en début de partie, les navires ne peuvent pas naviguer en haute mer, ils sont restreint a naviguer proche des côtes. Mais un problème asser fréquent et de se retrouver bloquer par les frontière maritime d'une civilisation, blonquant le passage. 
+Le mod a donc pour objectif de laisser passer les navires a travers les frontières maritimes des autres civilisations, qu'importe leurs avis...
+Statistique : Abonnés totaux unique : 1 668	Nb Abonnés max : 1 180	Abonnés actuel : 1 165
+Lien : https://steamcommunity.com/sharedfiles/filedetails/?id=2258413293
