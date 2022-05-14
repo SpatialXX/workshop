@@ -1,0 +1,12 @@
+################
+##### FRA ######
+################
+
+FRA_maginotline = {
+	icon = intervention_overseas
+	picture = GFX_decision_cat_picture_maginotline
+	allowed = {
+	original_tag = FRA
+#		NOT = { OR = { tag = GER tag = FRA original_tag = GER original_tag = FRA } }
+	}
+}

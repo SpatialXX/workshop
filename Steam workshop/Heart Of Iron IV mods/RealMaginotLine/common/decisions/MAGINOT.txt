@@ -1,0 +1,1310 @@
+FRA_maginotline = {
+	FRA_earlymaginot = {
+	
+		icon = generic_construction
+		
+		cost = 0
+		fire_only_once = yes
+		available = {
+			has_start_date < 1936.1.2
+			controls_state = 28
+		}
+		ai_will_do = {
+			factor = 500
+		}
+		visible = {
+			FRA = {
+				date > 1936.1.1
+				date < 1937.1.1
+				controls_state = 28
+			}
+		}
+		complete_effect = {
+			28 = {
+				set_building_level = {
+					type = bunker
+					province = 6529
+					level = 6
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					province = 678
+					level = 6
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					province = 9503
+					level = 6
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					province = 549
+					level = 10
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					province = 3629
+					level = 2
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					province = 11502
+					level = 10
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					province = 9559
+					level = 10
+					instant_build = yes
+				}
+			}
+			
+			18 = {
+				set_building_level = {
+					type = bunker
+					province = 5291
+					level = 2
+					instant_build = yes
+				}
+					set_building_level = {
+					type = bunker
+					province = 3560
+					level = 8
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					province = 9472
+					level = 2
+					instant_build = yes
+				}
+			}
+			29 = {
+				set_building_level = {
+					type = bunker
+					province = 11606
+					level = 2
+					instant_build = yes
+				}
+			}
+			735 = {
+				set_building_level = {
+					type = bunker
+					province = 9909
+					level = 10
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					province = 3959
+					level = 5
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					province = 6975
+					level = 6
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					province = 3764
+					level = 8
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					province = 764
+					level = 2
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					province = 9745
+					level = 5
+					instant_build = yes
+				}
+			}
+			1 = {
+				set_building_level = {
+					type = bunker
+					province = 3838
+					level = 2
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					province = 9851
+					level = 2
+					instant_build = yes
+				}
+				set_building_level = {
+					type = coastal_bunker
+					province = 3838
+					level = 2
+					instant_build = yes
+				}
+				set_building_level = {
+					type = coastal_bunker
+					province = 9851
+					level = 1
+					instant_build = yes
+				}
+			}
+			
+			34 = {
+				set_building_level = {
+					type = bunker
+					province = 13081
+					level = 2
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					province = 11519
+					level = 8
+					instant_build = yes
+				}
+			}
+			6 = {
+				set_building_level = {
+					type = bunker
+					province = 13068
+					level = 2
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					province = 6598
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+################################
+
+	FRA_latemaginot = {
+	
+		icon = generic_construction
+		ai_will_do = {
+			factor = 500
+		}
+		cost = 0
+		fire_only_once = yes
+		available = {
+			has_start_date < 1939.8.15
+			controls_state = 28
+		}
+		visible = {
+			FRA = {
+				date > 1939.8.14
+				date < 1941.1.1
+				controls_state = 28
+			}
+		}
+
+		complete_effect = {
+			28 = {
+				set_building_level = {
+					type = bunker
+					province = 6529
+					level = 6
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					province = 678
+					level = 6
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					province = 9503
+					level = 6
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					province = 549
+					level = 10
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					province = 3629
+					level = 6
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					province = 11502
+					level = 10
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					province = 9559
+					level = 10
+					instant_build = yes
+				}
+			}
+			
+			18 = {
+				set_building_level = {
+					type = bunker
+					province = 5291
+					level = 2
+					instant_build = yes
+				}
+					set_building_level = {
+					type = bunker
+					province = 3560
+					level = 8
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					province = 9472
+					level = 2
+					instant_build = yes
+				}
+			}
+			29 = {
+				set_building_level = {
+					type = bunker
+					province = 11606
+					level = 5
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					province = 11483
+					level = 1
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					province = 575
+					level = 1
+					instant_build = yes
+				}
+			}
+			785 = {
+				set_building_level = {
+					type = bunker
+					province = 3447
+					level = 2
+					instant_build = yes
+				}
+			}
+			17 = {
+				set_building_level = {
+					type = bunker
+					province = 3666
+					level = 2
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					province = 3646
+					level = 2
+					instant_build = yes
+				}
+			}
+			735 = {
+				set_building_level = {
+					type = bunker
+					province = 9909
+					level = 10
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					province = 3959
+					level = 5
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					province = 6975
+					level = 6
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					province = 3764
+					level = 8
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					province = 764
+					level = 2
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					province = 9745
+					level = 5
+					instant_build = yes
+				}
+			}
+			1 = {
+				set_building_level = {
+					type = bunker
+					province = 3838
+					level = 2
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					province = 9851
+					level = 2
+					instant_build = yes
+				}
+				set_building_level = {
+					type = coastal_bunker
+					province = 3838
+					level = 2
+					instant_build = yes
+				}
+				set_building_level = {
+					type = coastal_bunker
+					province = 9851
+					level = 1
+					instant_build = yes
+				}
+			}
+			665 = {
+				set_building_level = {
+					type = bunker
+					province = 11957
+					level = 8
+					instant_build = yes
+				}
+			}
+			34 = {
+				set_building_level = {
+					type = bunker
+					province = 13081
+					level = 2
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					province = 11519
+					level = 8
+					instant_build = yes
+				}
+			}
+			6 = {
+				set_building_level = {
+					type = bunker
+					province = 13068
+					level = 2
+					instant_build = yes
+				}
+				set_building_level = {
+					type = bunker
+					province = 6598
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+################################
+
+	FRA_magsarre = {
+	
+		icon = generic_construction
+		ai_will_do = {
+			factor = 100
+		}
+		cost = 10
+		fire_only_once = yes
+		available = {
+			GER = { 
+			OR = {
+					has_completed_focus = GER_rhineland
+					has_completed_focus = GER_return_of_the_kaiser
+				}
+			}
+			controls_state = 28
+			has_start_date < 1936.1.2
+		}
+		visible = {
+			FRA = {
+					GER = { 
+			OR = {
+					has_completed_focus = GER_rhineland
+					has_completed_focus = GER_return_of_the_kaiser
+				}
+			}
+				has_start_date < 1936.1.2
+				controls_state = 28
+			}
+		}
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 1
+		}
+		remove_effect = {
+			28 = {
+				add_building_construction = {
+					type = bunker
+					province = 3629
+					level = 4
+				}
+			}
+		}
+	}
+
+################################
+
+	FRA_magbelg = {
+	
+		icon = generic_construction
+		ai_will_do = {
+			factor = 50
+		}
+		cost = 25
+		fire_only_once = yes
+		available = {
+			GER = { 
+			OR = {
+					has_completed_focus = GER_rhineland
+					has_completed_focus = GER_return_of_the_kaiser
+				}
+			}
+			has_start_date < 1936.1.2
+			controls_state = 29
+			controls_state = 785
+		}
+		visible = {
+			FRA = {
+			GER = { 
+			OR = {
+					has_completed_focus = GER_rhineland
+					has_completed_focus = GER_return_of_the_kaiser
+				}
+			}
+				has_start_date < 1936.1.2
+				controls_state = 29
+				controls_state = 785
+			}
+		}
+		days_remove = 120
+		modifier = {
+			civilian_factory_use = 7
+		}
+		remove_effect = {
+			29 = {
+				add_building_construction = {
+					type = bunker
+					province = 11606
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 11483
+					level = 1
+				}
+				add_building_construction = {
+					type = bunker
+					province = 575
+					level = 1
+				}
+			}
+			785 = {
+				add_building_construction = {
+					type = bunker
+					province = 3447
+					level = 2
+				}
+			}
+		}
+		complete_effect = {
+			BEL = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = rejected_demands
+				}
+				add_opinion_modifier = {
+					target = GER
+					modifier = FRA_extend_the_maginot_line_focus_pos
+				}
+			}
+		}
+	}
+
+################################
+
+	FRA_magbelgnew = {
+	
+		icon = generic_construction
+		ai_will_do = {
+			factor = 10
+		}
+		cost = 50
+		fire_only_once = yes
+		available = {
+			has_completed_focus = FRA_begin_rearmament
+			controls_state = 29
+			controls_state = 785
+			controls_state = 18
+		}
+		visible = {
+			FRA = {
+				FRA = { has_completed_focus = FRA_begin_rearmament }
+				controls_state = 29
+				controls_state = 18
+				controls_state = 785
+			}
+		}
+		days_remove = 200
+		modifier = {
+			civilian_factory_use = 8
+		}
+		remove_effect = {
+			18 = {
+				add_building_construction = {
+					type = bunker
+					province = 5291
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 9472
+					level = 2
+				}
+			}
+			29 = {
+				add_building_construction = {
+					type = bunker
+					province = 11483
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 575
+					level = 3
+				}
+			}
+			785 = {
+				add_building_construction = {
+					type = bunker
+					province = 3447
+					level = 3
+				}
+			}
+		}
+		complete_effect = {
+			BEL = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = FRA_extend_the_maginot_line_focus_neg
+				}
+				add_opinion_modifier = {
+					target = GER
+					modifier = FRA_extend_the_maginot_line_focus_pos
+				}
+			}
+			army_experience = -20
+		}
+	}
+
+################################
+
+	FRA_magbelghelp = {
+	
+		icon = generic_construction
+		ai_will_do = {
+			factor = 50
+		}
+		cost = 50
+		fire_only_once = yes
+		available = {
+			GER = { 
+			OR = {
+					has_completed_focus = GER_rhineland
+					has_completed_focus = GER_return_of_the_kaiser
+				}
+			}
+			BEL = {
+				controls_state = 6
+				controls_state = 34
+				has_opinion = {
+					target = GER
+					value < 0
+				}
+				has_opinion = {
+					target = FRA
+					value > 74
+				}
+			}
+		}
+		
+		visible = {
+			GER = { 
+			OR = {
+					has_completed_focus = GER_rhineland
+					has_completed_focus = GER_return_of_the_kaiser
+				}
+			}
+			BEL = {
+				controls_state = 6
+				controls_state = 34						
+			}
+		}			
+
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 3
+		}
+		remove_effect = {
+			34 = {
+				add_building_construction = {
+					type = bunker
+					province = 13081
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 3516
+					level = 3
+				}
+			}
+			6 = {
+				add_building_construction = {
+					type = bunker
+					province = 13068
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 6598
+					level = 3
+				}
+			}
+		}
+	}
+
+################################
+
+	FRA_magswiss = {
+	
+		icon = generic_construction
+		ai_will_do = {
+			factor = 100
+		}
+		cost = 50
+		fire_only_once = yes
+		available = {
+			has_start_date < 1936.1.2
+			controls_state = 17
+			GER = { 
+			OR = {
+					has_completed_focus = GER_rhineland
+					has_completed_focus = GER_return_of_the_kaiser
+				}
+			}
+		}
+		visible = {
+			has_start_date < 1936.1.2
+			controls_state = 17
+			GER = { 
+			OR = {
+					has_completed_focus = GER_rhineland
+					has_completed_focus = GER_return_of_the_kaiser
+				}
+			}
+		}
+		days_remove = 70
+		modifier = {
+			civilian_factory_use = 2
+		}
+		remove_effect = {
+			17 = {
+				add_building_construction = {
+					type = bunker
+					province = 3666
+					level = 2
+				}
+				add_building_construction = {
+					type = bunker
+					province = 3646
+					level = 2
+				}
+
+			}
+		}
+	}
+	
+################################
+
+	FRA_magswissnew = {
+	
+		icon = generic_construction
+		ai_will_do = {
+			factor = 15
+		}
+		cost = 100
+		fire_only_once = yes
+		available = {
+			FRA = { has_completed_focus = FRA_begin_rearmament }
+			controls_state = 17
+			controls_state = 735
+			controls_state = 20
+		}
+		visible = {
+				FRA = { has_completed_focus = FRA_begin_rearmament }
+				controls_state = 17
+			}
+		
+		days_remove = 250
+		modifier = {
+			civilian_factory_use = 9
+		}
+		remove_effect = {
+			17 = {
+				add_building_construction = {
+					type = bunker
+					province = 3666
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 3646
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 698
+					level = 5
+				}
+			}
+			20 = {
+				add_building_construction = {
+					type = bunker
+					province = 6668
+					level = 5
+				}
+				add_building_construction = {
+					type = bunker
+					province = 6639
+					level = 3
+				}
+			}
+			735 = {
+				add_building_construction = {
+					type = bunker
+					province = 11573
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 9603
+					level = 3
+				}
+				add_building_construction = {
+					type = bunker
+					province = 778
+					level = 3
+				}
+			}
+		}
+		complete_effect = {
+			SWI = {
+				add_opinion_modifier = {
+					target = FRA
+					modifier = FRA_extend_the_maginot_line_focus_neg
+				}
+				add_opinion_modifier = {
+					target = GER
+					modifier = FRA_extend_the_maginot_line_focus_pos
+				}
+				add_opinion_modifier = {
+					target = ITA
+					modifier = FRA_extend_the_maginot_line_focus_pos
+				}
+			}
+			army_experience = -30
+		}
+	}
+
+################################
+
+	FRA_magtun = {
+	
+		icon = generic_construction
+		ai_will_do = {
+			factor = 70
+		}
+		cost = 20
+		fire_only_once = yes
+		available = {
+			has_start_date < 1936.1.2
+			665 = {
+				is_owned_or_subject_trigger = yes
+			}	
+		}
+		visible = {
+			has_start_date < 1936.1.2
+			665 = {
+				is_owned_or_subject_trigger = yes
+			}	
+		}
+		days_remove = 100
+		modifier = {
+			civilian_factory_use = 2
+		}
+		remove_effect = {
+			665 = {
+				set_building_level = {
+					type = bunker
+					province = 11957
+					level = 8
+				}
+			}
+		}
+	}
+
+	
+################################
+
+	FRA_magdji = {
+	
+		icon = generic_construction
+		ai_will_do = {
+			factor = 10
+		}
+		cost = 25
+		fire_only_once = yes
+		available = {
+			FRA = {
+				268 = {
+					is_owned_or_subject_trigger = yes
+				}
+			}
+			ITA = {
+				controls_state = 271
+			}	
+		}
+		visible = {
+			FRA = {
+				268 = {
+					is_owned_or_subject_trigger = yes
+				}
+			}
+			ITA = {
+				controls_state = 271
+			}		
+		}
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 2
+		}
+		remove_effect = {
+			268 = {
+				set_building_level = {
+					type = bunker
+					province = 8124
+					level = 5
+				}
+				set_building_level = {
+					type = bunker
+					province = 4985
+					level = 5
+				}
+			}
+		}
+	}
+	
+################################
+
+	FRA_chauvineau = {
+	
+		icon = generic_construction
+		ai_will_do = {
+			factor = 20
+		}
+		cost = 25
+		fire_only_once = yes
+		available = {
+			controls_state = 16
+			controls_state = 15
+			controls_state = 785
+			FRA = { has_completed_focus = FRA_begin_rearmament }
+		}
+		visible = {
+			FRA = {
+			controls_state = 16
+			controls_state = 15
+			controls_state = 785
+			has_completed_focus = FRA_begin_rearmament
+			}
+		}		
+		days_remove = 100
+		modifier = {
+			civilian_factory_use = 3
+		}
+		remove_effect = {
+			785 = {
+				add_building_construction = {
+					type = bunker
+					province = 6585
+					level = 2
+				}
+				add_building_construction = {
+					type = bunker
+					province = 9561
+					level = 2
+				}
+				add_building_construction = {
+					type = bunker
+					province = 11549
+					level = 2
+				}
+			}
+			15 = {
+				add_building_construction = {
+					type = bunker
+					province = 6569
+					level = 2
+				}
+			}
+		}
+		complete_effect = {
+			army_experience = -10
+		}
+	}
+	
+################################
+
+	FRA_magspain = {
+	
+		icon = generic_construction
+		ai_will_do = {
+			factor = 10
+		}
+		cost = 100
+		fire_only_once = yes
+		available = {
+			controls_state = 31
+			country_exists = SPR
+			SPR = {
+				OR = {
+					has_government = fascism
+					has_government = neutrality
+				}	
+			}
+		}
+		visible = {
+			SPR = {
+				OR = {
+					has_government = fascism
+					has_government = neutrality
+				}	
+			}
+		}
+		days_remove = 180
+		modifier = {
+			civilian_factory_use = 10
+		}
+		remove_effect = {
+			31 = {
+				add_building_construction = {
+					type = bunker
+					province = 11697
+					level = 6
+				}
+				add_building_construction = {
+					type = bunker
+					province = 9884
+					level = 4
+				}
+				add_building_construction = {
+					type = bunker
+					province = 9882
+					level = 4
+				}
+				add_building_construction = {
+					type = bunker
+					province = 3915
+					level = 7
+				}
+				add_building_construction = {
+					type = bunker
+					province = 6931
+					level = 4
+				}
+				add_building_construction = {
+					type = bunker
+					province = 6915
+					level = 4
+				}
+				add_building_construction = {
+					type = bunker
+					province = 9853
+					level = 8
+				}
+			}
+			19 = {
+				add_building_construction = {
+					type = bunker
+					province = 743
+					level = 7
+				}
+			}
+		}
+	}
+
+################################
+
+	FRA_magair = {
+	
+		icon = generic_construction
+		ai_will_do = {
+			factor = 10
+		}
+		cost = 25
+		fire_only_once = yes
+		available = {
+			has_tech = antiair2
+			controls_state = 29
+			controls_state = 18
+		}
+		visible = {
+			FRA = { has_completed_focus = FRA_begin_rearmament }
+		}
+		days_remove = 90
+		modifier = {
+			civilian_factory_use = 3
+		}
+		remove_effect = {
+			29 = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 2
+				}
+			}
+			18 = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 2
+				}
+			}
+			if = {
+				limit = {
+					controls_state = 735
+				}
+			
+				735 = {
+					add_building_construction = {
+						type = anti_air_building
+						level = 2
+					}
+				}
+			}
+		}
+	}
+	
+################################
+	
+	FRA_bridgeboom = {
+
+		icon = hol_inundate_water_lines	
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 500
+				GER = {
+					controls_state = 34
+				}
+				tag = FRA
+			}
+		}
+		available = {
+			controls_state = 16
+			has_war = yes
+		}
+		visible = {
+			has_war = yes
+		}
+		cost = 0
+
+		fire_only_once = no
+		days_remove = 4
+		days_re_enable = 31
+		highlight_states = { state = 18 }
+		highlight_states = { state = 29 }
+		highlight_states = { state = 16 }
+		highlight_states = { state = 785 }
+
+		remove_effect = {
+			if = {
+				limit = {
+					18 = { is_fully_controlled_by = ROOT }
+				}
+				18 = {
+					damage_building = {
+					    type = infrastructure
+					    damage = 5
+					}
+				}
+			}
+			if = {
+				limit = {
+					29 = { is_fully_controlled_by = ROOT }
+				}
+			
+				29 = {
+					damage_building = {
+					    type = infrastructure
+					    damage = 5
+					}
+				}
+			}
+			if = {
+				limit = {
+					16 = { is_fully_controlled_by = ROOT }
+				}
+				16 = {
+					damage_building = {
+					    type = infrastructure
+					    damage = 5
+					}
+				}
+			}
+			if = {
+				limit = {
+					785 = { is_fully_controlled_by = ROOT }
+				}
+				785 = {
+					damage_building = {
+					    type = infrastructure
+					    damage = 5
+					}
+				}
+			}
+		}
+	}
+	
+################################
+
+	FRAczemaginot = {
+		icon = generic_construction
+		ai_will_do = {
+		factor = 100
+		}
+		cost = 0
+		fire_only_once = yes
+		available = {
+				CZE = {
+					controls_state = 69
+					has_idea = CZE_fortification_focus
+				}
+		}
+		visible = {
+				CZE = {
+					controls_state = 69
+					has_idea = CZE_fortification_focus
+				}
+		}
+		complete_effect = {
+			CZE = {
+				remove_ideas = CZE_fortification_focus
+				add_ideas = { cze_maginot_yes }
+			}
+		}
+	}
+	
+################################
+
+	FRAczemaginotno = {
+		icon = generic_construction
+		ai_will_do = {
+		factor = 30
+		}		
+		cost = 0
+		fire_only_once = yes
+		available = {
+				CZE = {
+					controls_state = 69
+					has_idea = CZE_fortification_focus
+				}
+		}
+		visible = {
+				CZE = {
+					controls_state = 69
+					has_idea = CZE_fortification_focus
+				}		
+		}
+		complete_effect = {
+			CZE = {
+				remove_ideas = CZE_fortification_focus
+				add_ideas = { cze_maginot_no }
+			}
+		}
+	}	
+
+
+#fin
+}
+
+################################
+
+economy_decisions = {
+	GERczemaginot = {
+		allowed = {
+			original_tag = GER
+			}
+		icon = generic_construction
+		ai_will_do = {
+		factor = 500
+		}
+		cost = 30
+		fire_only_once = yes
+		available = {
+			GER = {
+				controls_state = 69
+			}
+			OR = {
+				CZE = {
+					has_idea = CZE_maginot_yes
+				}
+				has_start_date < 1939.8.15
+			}
+		}
+		visible = {
+			GER = {
+				controls_state = 69
+			}
+			OR = {
+				CZE = {
+					has_idea = CZE_maginot_yes
+				}
+				has_start_date < 1939.8.15
+			}
+		}
+		complete_effect = {
+			GER = {
+				add_ideas = ger_maginot_cap
+			}
+		}
+	}
+	
+################################
+	
+}

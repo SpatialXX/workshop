@@ -1,0 +1,35 @@
+A propos d'HOI4 :
+Heart of Iron IV est un jeu de stratégie prenant place pendant la seconde guerre mondiale.
+Les joueurs prennent le contrôle d'une nation et doivent la préparer pour la guerre (où la paix?) et peut-être conquérir le monde.
+La communauté de modding est très active et rajoute beaucoup de contenu, entre le rajout de nouvelles mécanique, de personnage historique, voir même d'histoire alternative.
+
+Note : Les Statistique sont prise a la date du 14 mai 2022
+
+Real maginot line :
+Fonction : Dans le jeu, la France est protégé par la ligne de fortification Maginot, protégant ainsi la frontière Franco-Allemande. Mais la où en jeu, les forts s'arrête a la frontière, dans la vraie vie, la ligne Maginot protégeait également les Alpes et en partie le Nord.
+Le mod Real Maginot line a donc pour but d'apporter une représentation plus poussé et exacte de la ligne Maginot en 1936 et 1939.
+Statistique : Abonnés totaux unique : 4 000	Nb Abonnés max : 2 500	Abonnés actuel : 1600  
+Lien : https://steamcommunity.com/sharedfiles/filedetails/?id=2258413293
+
+
+French Secret Weapon :
+Fonction : En jeu, un joueur a la possibilité de réaliser des "focus" a ça nation. Pendant se temps, la politique du pays va s'engager pour accomplir un objectif en rapport avec l'histoire, par exemple l'allemagne a un focus qui lui permet d'envahir l'autriche, la tchécoslovaquie et la pologne, où bien d'investir dans la recherche de fussée.
+En général, les grandes nations du jeu on toujours des focus pour développer des armes Secrétes, tel la V2 pour l'allemagne. Mais après un Rework des focus de la France, la nation n'a pas de focus d'armes secrètes, là ou la dans la vraie vie, le pays avait développer plusieurs projets d'armes.
+Le but du mod est donc de redonner au pays l'accés a des armes puissantes quel développait pendant cette période.
+Statistique : Abonnés totaux unique : 286 	Nb Abonnés max : 130		Abonnés actuel : 117
+Lien : https://steamcommunity.com/sharedfiles/filedetails/?id=2278885966
+
+France Completed :
+Note : Je n'ai en soit, pas réellement développer se mod. 'FredX' en est le créateur, ainsi son travail n'est pas télécharger ici. Ma seul contribution est d'avoir donné l'autorisation d'intégrer mes 2 mods précédant dans le siens.
+Fonction : Le mod France Completed vise a donné plus de contenu pour la nation Française a travers de nombreux focus, événement et décisions.
+Statistique : Abonnés totaux unique : 11 100	Nb Abonnés max : 5 550	Abonnés actuel : 5 550
+Lien : https://steamcommunity.com/sharedfiles/filedetails/?id=2273181015
+
+Propaganda Campaigns : 
+Note : Je n'ai aucunement contribué a la programmation du mod, seulement aidé en trouvant des images de poster de propagande français de l'époque.
+Preuves : https://steamcommunity.com/workshop/filedetails/discussion/2175242864/3830828948529883921/?ctp=2
+Fonction : Le mod Propaganda Campaigns rajoute une nouvelle mécanique au jeu avec des posters de propagande pour obtenir le soutien de la population.
+Statistique : Abonnés actuel : 25 550
+
+
+d

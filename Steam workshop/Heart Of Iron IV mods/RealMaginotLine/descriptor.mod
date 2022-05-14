@@ -1,0 +1,15 @@
+version="1.9.3"
+tags={
+	"Alternative History"
+	"Balance"
+	"Fixes"
+	"Gameplay"
+	"Historical"
+	"Map"
+	"Military"
+	"National Focuses"
+}
+name="Real Maginot Line"
+picture="thumbnail.png"
+supported_version="1.9.3"
+remote_file_id="2258413293"
