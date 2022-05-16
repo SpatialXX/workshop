@@ -1,1 +1,0 @@
-le dossier texture doit être installé dans le même fichier que les 3 autres document
