@@ -1,0 +1,5 @@
+qu'avez vous déjà fait?		MAP DEPLACEMENT SALLES BONHOMMES TEAMS EXPLORATION
+qu'est ce qui fonctionne	Tout au dessus		except, TEAMS BUTTONS
+qu'est ce qui ne fonctionne pas	RIEN
+qu'est ce qui reste à faire	BONUS_EXPLORATIONS  GESTION_HOMMES/TEAMS/SALLES  MARCHANDAGE/CARGO +DE_SALLES
+planning pour que tout soit rendu pôur le 30/05		AAAAAA
